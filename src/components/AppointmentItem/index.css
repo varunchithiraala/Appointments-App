@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.appointment-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-item {
+      min-width: 300px;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-bottom: 32px;
+  }
+}
+
+.appointment-header-container {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-title {
+  color: #171f46;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-title {
+      font-size: 18px;
+  }
+}
+
+.appointment-star-button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.appointment-star-image {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-star-image {
+      height: 25px;
+      width: 25px;
+  }
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  font-family: "Roboto";
+  font-size: 12px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-date {
+      font-size: 16px;
+  }
+}
